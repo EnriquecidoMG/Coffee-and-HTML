@@ -1,0 +1,366 @@
+@font-face {
+    font-family: Stereofidelic;
+    src: url(resources/Fonts/Stereofidelic.otf) format(truetype);
+}
+
+@font-face {
+    font-family: LinuxBiolinum;
+    src: url(resources/Fonts/LinBiolinum_RB.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: SANTELLO;
+    src: url(resources/Fonts/SANTELLO.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Arcticon;
+    src: url(resources/Fonts/ArcticonsSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: LibMono;
+    src: url(resources/Fonts/LiberationMono-Regular.ttf) format(truetype);
+}
+
+main {
+    align-items: flex-start;
+    width: 60%;
+    background-color: rgba(49, 37, 35, 0);
+    color: #dcdcdc;
+    margin: auto;
+}
+
+body{
+  background: rgb(49, 37, 35);
+}
+
+header h1 {
+    color: #fff;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Stereofidelic;
+    font-size: 68px;
+}
+
+
+h2 {
+    font-family: LinuxBiolinum;
+    color: honeydew;
+    position: relative;
+    width: fit-content;
+    cursor: default;
+  }
+  
+  h2::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      background-color: honeydew;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+      cursor: default;
+    }
+  
+  h2:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    cursor: default;
+  }
+
+
+.texth2holder{
+    width: auto;
+    background-color: rgb(69, 52, 49);
+    border-radius: 20px;
+}
+
+section{
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 20px;
+    margin: 20px;
+    border-color: rgb(69, 52, 49);
+}
+
+section a{
+  text-decoration: none;
+  color: honeydew;
+  font-style: italic;
+}
+
+/*
+section a:hover::before{
+  content: "🌎";
+}
+  */
+
+.meme{
+  border-radius: 15px;
+  border-style: solid;
+  border-color:rgb(69, 52, 49);
+  border-width: 3px;
+}
+
+iframe{
+  border-radius: 15px;
+  border-style: solid;
+  border-color:rgb(69, 52, 49);
+  border-width: 3px;
+}
+
+.card {
+
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    background-color: #eef3f8;
+    border-radius: 8px;
+    z-index: 1;
+    transition: 0.3s;
+   }
+   .card:hover{
+    transform: scale(1.04);
+
+   }
+
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+   
+   .card__content{
+    font-family: dogica;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    color: rgb(30, 30, 30);
+
+   }
+
+code{
+    font-family: LibMono;
+    font-size: 12px;
+}
+
+.text-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;  /* Asegura que las letras estén centradas horizontalmente */
+  }
+  
+  .letter {
+    font-family: Stereofidelic;
+    font-size: 68px;
+    font-weight: bold;
+    color: honeydew;
+    display: inline-block;
+    animation: move 1.5s ease-in-out infinite;
+    margin: 0 5px;
+  }
+  
+  .letter:nth-child(odd) {
+    animation-delay: 0.3s;
+  }
+  
+  .letter:nth-child(even) {
+    animation-delay: 0.6s;
+  }
+
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);  /* Mueve la letra hacia arriba */
+    }
+    50% {
+      transform: translateY(0);      /* Vuelve a la posición original */
+    }
+    75% {
+      transform: translateY(5px);   /* Mueve la letra hacia abajo */
+    }
+    100% {
+      transform: translateY(0);      /* Vuelve a la posición original */
+    }
+  }
+  
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background: rgb(49, 37, 35);
+    overflow: hidden;
+  }
+  .background .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(resources/Background/wave.png);
+    background-size: 1000px 100px
+  }
+  .background .air.air1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  .background .air.air2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  .background .air.air3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  .background .air.air4{
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes wave{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: 1000px; 
+    }
+  }
+  @keyframes wave2{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: -1000px; 
+    }
+  }
+
+
+  .btn {
+
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: honeydew;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  
+  .btn::after {
+    background-color: honeydew;
+  }
+
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+
+table{
+  width: auto;
+  border-style: solid;
+  border-color: rgb(69, 52, 49);
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+tbody{
+  border-radius: 15px;
+}
+
+td{
+  color: black;
+  background-color: #eef3f892;
+}
+
+ul{
+  padding: 8px;
+}
+
+li{
+  padding: 8px;
+}

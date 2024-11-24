@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guide_styled.css">
+    <link rel="shortcut icon" href="resources/Favicon/Coffe_Bean.ico" type="image/x-icon">
+    <title>Aprender HTML</title>
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <br>
+            <div class="text-container">
+                <span class="letter"> </span>
+                <span class="letter"> </span>
+                <span class="letter"> </span>
+                <span class="letter"> </span>
+                <span class="letter">C</span>
+                <span class="letter">O</span>
+                <span class="letter">F</span>
+                <span class="letter">F</span>
+                <span class="letter">E</span>
+                <span class="letter"> </span>
+                <span class="letter">&</span>
+                <span class="letter"> </span>
+                <span class="letter">H</span>
+                <span class="letter">T</span>
+                <span class="letter">M</span>
+                <span class="letter">L</span>
+                <span class="letter"> </span>
+                <span class="letter"> </span>
+                <span class="letter">☕</span>
+            </div>
+            <br>
+            <p style="text-align: center;">Bienvenido al tutorial COFFE-HTML. Aquí aprenderás los conceptos básicos de
+                HTML y cómo crear páginas web sencillas.</p>
+        </header>
+
+        <!-- Sección 1: Introducción a HTML -->
+        <div class="texth2holder">
+            <section>
+
+                <h2>1. Introducción a HTML</h2>
+                <br>
+                <p><strong>¿Qué es HTML?</strong><br>
+                    HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. Consiste
+                    en una serie de "etiquetas" o "elementos" que definen la estructura y el contenido de una página
+                    web. HTML no es un lenguaje de programación, sino un lenguaje de marcado utilizado para organizar y
+                    estructurar contenido en la web.</p><br>
+
+                <p><strong>Estructura básica de una página HTML</strong><br>
+                    Una página HTML tiene una estructura básica que siempre incluye las siguientes partes:</p>
+                <br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+&lt;!DOCTYPE html&gt;  &lt;!-- Declara el tipo de documento (HTML5 aquí) --&gt;
+&lt;html&gt;  &lt;!-- Etiqueta raíz que envuelve todo el contenido de la página --&gt;
+    &lt;head&gt;  &lt;!-- Contiene metadatos, enlaces a archivos externos, etc. --&gt;
+    &lt;title&gt;Mi Página Web&lt;/title&gt;  &lt;!-- Título mostrado en la pestaña del navegador --&gt;
+    &lt;/head&gt;
+    &lt;body&gt;  &lt;!-- Contiene todo el contenido visible de la página --&gt;
+    &lt;h1&gt;Bienvenido a Mi Página Web&lt;/h1&gt;  &lt;!-- Encabezado principal --&gt;
+    &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;  &lt;!-- Un párrafo --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </code></pre>
+                    </div>
+                </div>
+                <br>
+                <p><strong>¿Por qué es importante HTML?</strong><br>
+                    HTML forma el esqueleto de todas las páginas web. Es la base sobre la cual se construyen otras
+                    tecnologías como CSS (para el estilo) y JavaScript (para la interactividad).</p>
+
+            </section>
+        </div>
+
+        <!-- Sección 2: Estructura básica de HTML y elementos -->
+        <div class="texth2holder">
+            <section>
+                <h2>2. Estructura básica de HTML y elementos</h2><br>
+                <p><strong>Etiquetas principales:</strong></p>
+                <ul>
+                    <li><code>&lt;html&gt;</code>: La etiqueta raíz que envuelve todo el contenido de la página.</li>
+                    <li><code>&lt;head&gt;</code>: Contiene metadatos como el título, archivos CSS externos y scripts.
+                    </li>
+                    <li><code>&lt;title&gt;</code>: Define el título que aparece en la pestaña del navegador.</li>
+                    <li><code>&lt;body&gt;</code>: Contiene todo el contenido visible de la página, como texto,
+                        imágenes, enlaces, etc.</li>
+                </ul>
+                <br>
+                <p><strong>Etiquetas comunes:</strong></p>
+                <ul>
+                    <li><code>&lt;h1&gt; a &lt;h6&gt;</code>: Etiquetas de encabezado, donde <code>&lt;h1&gt;</code> es
+                        el encabezado más importante.</li>
+                    <li><code>&lt;p&gt;</code>: Define un párrafo de texto.</li>
+                    <li><code>&lt;a&gt;</code>: Define un hipervínculo (enlace). Ejemplo:
+                        <code>&lt;a href="https://www.example.com"&gt;Visitar el sitio&lt;/a&gt;</code>.
+                    </li>
+                    <li><code>&lt;ul&gt;</code>: Define una lista desordenada. Ejemplo:
+                        <pre>
+&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+                    </li>
+                    <li><code>&lt;ol&gt;</code>: Define una lista ordenada (numerada).</li>
+                    <li><code>&lt;li&gt;</code>: Define un ítem dentro de una lista.</li>
+                    <li><code>&lt;img&gt;</code>: Define una imagen. Requiere el atributo <code>src</code> (fuente de la
+                        imagen).</li>
+                </ul><br><br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Ejemplo de HTML&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+    &lt;h2&gt;Subencabezado Secundario&lt;/h2&gt;
+    &lt;h3&gt;Subencabezado Menor&lt;/h3&gt;
+    &lt;h4&gt;Encabezado Nivel 4&lt;/h4&gt;
+    &lt;h5&gt;Encabezado Nivel 5&lt;/h5&gt;
+    &lt;h6&gt;Encabezado Nivel 6&lt;/h6&gt;
+
+    &lt;p&gt;Este es un párrafo de texto mostrando cómo se usa la etiqueta &lt;code&gt;&lt;p&gt;&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Para visitar un sitio web, puedes hacer clic en este enlace: 
+        &lt;a href="https://www.example.com" target="_blank"&gt;Visitar el sitio&lt;/a&gt;.
+    &lt;/p&gt;
+
+    &lt;h3&gt;Lista desordenada (con viñetas)&lt;/h3&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Elemento 1&lt;/li&gt;
+        &lt;li&gt;Elemento 2&lt;/li&gt;
+        &lt;li&gt;Elemento 3&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3&gt;Lista ordenada (numerada)&lt;/h3&gt;
+    &lt;ol&gt;
+        &lt;li&gt;Primer ítem&lt;/li&gt;
+        &lt;li&gt;Segundo ítem&lt;/li&gt;
+        &lt;li&gt;Tercer ítem&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;h3&gt;Incluir una imagen&lt;/h3&gt;
+    &lt;img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen"&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                    </code></pre>
+                    </div>
+                </div>
+                <br>
+            </section>
+        </div>
+
+        <!-- Section 3: Creating Content and Structuring -->
+        <div class="texth2holder">
+            <section>
+                <h2>3. Creación de Contenido y Estructuración</h2><br>
+                <p><strong>Texto:</strong><br>
+                    - Usa <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> para crear encabezados. Por ejemplo:
+                <pre>
+&lt;h1&gt;Este es un encabezado principal&lt;/h1&gt;
+&lt;h2&gt;Este es un subencabezado&lt;/h2&gt;
+        </pre>
+                - Usa <code>&lt;p&gt;</code> para crear párrafos:
+                <pre>
+&lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+        </pre>
+                </p>
+
+                <p><strong>Listas:</strong><br>
+                    - Las listas desordenadas se crean con <code>&lt;ul&gt;</code> y <code>&lt;li&gt;</code>:
+                <pre>
+&lt;ul&gt;
+    &lt;li&gt;Elemento A&lt;/li&gt;
+    &lt;li&gt;Elemento B&lt;/li&gt;
+&lt;/ul&gt;
+        </pre>
+                - Las listas ordenadas se crean con <code>&lt;ol&gt;</code>:
+                <pre>
+&lt;ol&gt;
+    &lt;li&gt;Primer elemento&lt;/li&gt;
+    &lt;li&gt;Segundo elemento&lt;/li&gt;
+&lt;/ol&gt;
+        </pre>
+                </p>
+            </section>
+        </div>
+        <!-- Section 4: Links and Navigation -->
+        <div class="texth2holder">
+            <section>
+                <h2>4. Enlaces y Navegación</h2><br>
+                <p><strong>Hipervínculos:</strong><br>
+                    Los hipervínculos son fundamentales para la navegación en la web. La etiqueta <code>&lt;a&gt;</code>
+                    se usa para crear
+                    enlaces:
+                <pre>
+&lt;a href="https://www.example.com"&gt;Visitar Example&lt;/a&gt;
+        </pre>
+                El atributo <code>target="_blank"</code> abre el enlace en una nueva ventana o pestaña:
+                <pre>
+&lt;a href="https://www.example.com" target="_blank"&gt;Abrir en una nueva ventana&lt;/a&gt;
+        </pre>
+                </p>
+
+                <p><strong>Enlaces Internos:</strong><br>
+                    Los enlaces pueden señalar otras secciones de la misma página utilizando anclajes:
+                <pre>
+&lt;a href="#section1"&gt;Ir a la Sección 1&lt;/a&gt;
+        </pre>
+                Más abajo en la página, usa el atributo <code>id</code>:
+                <pre>
+&lt;h2 id="section1"&gt;Sección 1&lt;/h2&gt;
+        </pre>
+                </p>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+&lt;!-- Los hipervínculos son fundamentales para la navegación en la web --&gt;
+
+&lt;a href="https://www.example.com"&gt;Visitar Example&lt;/a&gt;
+
+&lt;!-- El atributo target="_blank" abre el enlace en una nueva ventana o pestaña: --&gt;
+&lt;a href="https://www.example.com" target="_blank"&gt;Abrir en una nueva ventana&lt;/a&gt;
+
+&lt;!-- Enlaces Internos --&gt;
+&lt;!-- Los enlaces pueden señalar otras secciones de la misma página utilizando anclajes: --&gt;
+
+&lt;a href="#section1"&gt;Ir a la Sección 1&lt;/a&gt;
+
+&lt;!-- Más abajo en la página, usa el atributo id: --&gt;
+&lt;h2 id="section1"&gt;Sección 1&lt;/h2&gt;
+                    </code></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Section 5: Using Images -->
+        <div class="texth2holder">
+            <section>
+                <h2>5. Uso de Imágenes</h2><br>
+                <p><strong>Insertar Imágenes:</strong><br>
+                    Para insertar una imagen, usa la etiqueta <code>&lt;img&gt;</code>. El atributo <code>src</code>
+                    especifica
+                    el origen de la imagen, y <code>alt</code> proporciona texto alternativo para accesibilidad:
+                <pre>
+&lt;img src="image.jpg" alt="Descripción de la imagen" width="300" height="200"&gt;
+        </pre>
+                </p>
+            </section>
+        </div>
+        <!-- Section 6: Semantic HTML -->
+        <div class="texth2holder">
+            <section>
+                <h2>6. HTML Semántico</h2><br>
+                <p><strong>¿Qué es el HTML Semántico?</strong><br>
+                    El HTML semántico usa etiquetas con significado para mejorar la accesibilidad y el SEO. Ayuda a
+                    hacer el contenido de una
+                    página web más claro y fácil de entender.</p><br>
+
+                <p><strong>Etiquetas Semánticas:</strong><br>
+                    Algunas de las etiquetas semánticas de HTML son:
+                <ul>
+                    <li><code>&lt;header&gt;</code>: Define el encabezado de la página o sección.</li>
+                    <li><code>&lt;footer&gt;</code>: Define el pie de página.</li>
+                    <li><code>&lt;main&gt;</code>: Define el contenido principal de la página.</li>
+                    <li><code>&lt;article&gt;</code>: Define un artículo independiente.</li>
+                    <li><code>&lt;section&gt;</code>: Define una sección de la página.</li>
+                    <li><code>&lt;nav&gt;</code>: Define un bloque de navegación.</li>
+                    <li><code>&lt;aside&gt;</code>: Define contenido relacionado pero separado del contenido principal.
+                    </li>
+                </ul>
+                <br>
+                <p>Ejemplo de una estructura semántica:</p><br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+&lt;header&gt;
+&lt;h1&gt;Bienvenido a Mi Sitio&lt;/h1&gt;
+&lt;nav&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#home"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#about"&gt;Acerca de&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+&lt;article&gt;
+    &lt;h2&gt;Mi Primer Artículo&lt;/h2&gt;
+    &lt;p&gt;Contenido del artículo aquí...&lt;/p&gt;
+&lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+&lt;p&gt;© 2024 Mi Sitio Web&lt;/p&gt;
+&lt;/footer&gt;
+                    </code></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Section 7: Practice and Exercises -->
+        <div class="texth2holder">
+            <section>
+                <h2>7. Práctica y Ejercicios</h2><br>
+                <ol>
+                    <li>Crea una página básica con un título, párrafo y una lista.</li>
+                    <li>Inserta una imagen en tu página web.</li>
+                    <li>Crea un formulario de contacto con campos para nombre, correo electrónico y mensaje.</li>
+                </ol>
+            </section>
+        </div>
+        <!-- Section 8: Common Mistakes and Best Practices -->
+        <div class="texth2holder">
+            <section>
+                <h2>8. Errores Comunes y Mejores Prácticas</h2><br>
+                <p><strong>Errores Comunes:</strong><br>
+                    - Olvidar cerrar etiquetas.<br>
+                    - Usar etiquetas no semánticas.<br>
+                    - No agregar texto alternativo a las imágenes.</p><br>
+
+                <p><strong>Mejores Prácticas:</strong><br>
+                    - Usa la indentación adecuada para mejorar la legibilidad.<br>
+                    - Agrega comentarios a tu código para explicar secciones complejas.
+                <pre>
+&lt;!-- Este es un comentario en HTML --&gt;
+        </pre>
+                </p>
+            </section>
+        </div>
+        <!-- Section 9: Conclusion and Additional Resources -->
+        <div class="texth2holder">
+            <section>
+                <h2>9. Conclusión y Recursos Adicionales</h2><br>
+                <p><strong>Resumen:</strong><br>
+                    En esta lección, aprendiste la estructura básica de HTML, cómo crear contenido (texto, listas,
+                    enlaces,
+                    imágenes) y la importancia del HTML semántico para la accesibilidad y el SEO.</p><br>
+
+                <p><strong>Recursos Adicionales:</strong><br>
+                    - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a><br>
+                    - <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></p>
+            </section>
+        </div>
+        <!-- Section 10: Glossary of Terms -->
+        <div class="texth2holder">
+            <section>
+                <h2>10. Glosario de Términos</h2><br>
+                <ul>
+                    <li><strong>Etiqueta</strong>: Un elemento en HTML que marca el inicio y el final de una sección de
+                        contenido.</li>
+                    <li><strong>Atributo</strong>: Propiedades adicionales que modifican el comportamiento o la
+                        apariencia de las etiquetas.</li>
+                    <li><strong>Contenedor</strong>: Una etiqueta que envuelve o contiene otras etiquetas o contenido.
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+
+        <!-- Change Block -->
+
+        <div class="texth2holder" style="width: 60%; margin-left: auto; margin-right: auto; background-color:honeydew;">
+            <section style="background-color:honeydew; border-color: honeydew; color: black;">
+                <h3 style="margin: auto; color: black; text-align: center;">¡Felicidades por completar el <b>Bloque
+                        HTML!</b></h3><br>
+                <p style="text-align: center;">Ahora estás listo para pasar a la siguiente sección: <b>CSS</b>.</p><br>
+                <p style="text-align: center;"><b>Importante:</b> Esta siguiente parte será un poco más avanzada, así
+                    que asegúrate de tener una comprensión sólida de los conceptos del bloque anterior antes de
+                    continuar.</p><br>
+                <p style="text-align: center;"><img src="resources/Images/tux-linux-penguin.gif" alt="tux_typing"
+                        width="20%"></p>
+            </section>
+        </div>
+
+        <!-- Section 1: What is CSS? -->
+
+        <div class="texth2holder" id="CSSsection">
+            <section>
+                <h2>1. ¿Qué es CSS?</h2><br>
+                <p>CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para describir la presentación y
+                    estilo de un documento HTML o XML. Mientras que <strong>HTML</strong> se encarga de la estructura y
+                    el contenido de una página web, <strong>CSS</strong> se utiliza para determinar su apariencia
+                    visual: colores, fuentes, márgenes, la disposición de los elementos en la página, etc.</p>
+
+                <br>
+
+                <h3>Función de CSS:</h3>
+                <ul>
+                    <li><strong>HTML</strong> se utiliza para definir la estructura básica de una página web, como el
+                        contenido de encabezados, párrafos, enlaces, imágenes, listas, tablas, formularios, etc.</li>
+                    <li><strong>CSS</strong> se utiliza para definir cómo aparecerá ese contenido en el navegador. Por
+                        ejemplo, puedes cambiar el color de fondo de la página, el tamaño y estilo de las fuentes en los
+                        párrafos, o alinear los elementos de cierta manera (por ejemplo, colocando elementos en una fila
+                        o columna).</li>
+                </ul>
+                <br>
+                <h3>CSS y la Cascada (Cascading)</h3>
+                <p>El término "Cascading" se refiere a cómo se aplican los estilos CSS en una jerarquía o cascada. Si
+                    existen conflictos entre las reglas de estilo, el navegador aplicará las reglas de estilo según la
+                    prioridad. Las reglas en línea (en el atributo <code>style</code> de un elemento) tienen prioridad
+                    sobre las reglas internas o externas, y las reglas más específicas (como un selector de clase)
+                    tienen prioridad sobre las más generales (como un selector de tipo de etiqueta).</p><br>
+                <p style="text-align: center;"><img src="https://media.tenor.com/mfJimYfYYgsAAAAM/css-king.gif"
+                        alt="Css king meme" class="meme"></p>
+            </section>
+        </div>
+
+        <!-- Section 2: Basic Structure of an HTML and CSS Project -->
+        <div class="texth2holder">
+            <section>
+                <h2>2. Estructura básica de un proyecto HTML y CSS</h2><br>
+                <p>Primero, creamos un archivo HTML para colocar nuestro contenido. Luego, vinculamos un archivo CSS
+                    externo que se encargará del estilo.</p>
+                <ul>
+                    <li><strong>HTML</strong>: La estructura básica de la página web.</li>
+                    <li><strong>CSS</strong>: Contiene el estilo y el diseño visual.</li>
+                </ul>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>
+            <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;link rel="stylesheet" href="examplestylesheet.css"&gt;
+    &lt;title&gt;Documento&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+                </div></code></pre>
+                    </div><br>
+                </div>
+            </section>
+        </div>
+
+        <!-- Section 3: Understanding CSS Syntax -->
+        <div class="texth2holder">
+            <section>
+                <h2>3. Entendiendo la sintaxis de CSS</h2><br>
+                <p>La sintaxis básica de CSS es muy sencilla:</p>
+                <pre><code>
+selector {
+propiedad: valor;
+}
+        </code></pre>
+                <ul>
+                    <li><strong>Selector</strong>: El elemento HTML que deseas estilizar.</li>
+                    <li><strong>Propiedad</strong>: El aspecto que deseas cambiar (como color, tamaño, etc.).</li>
+                    <li><strong>Valor</strong>: El valor que asignas a la propiedad.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Section 4: Applying Basic Styles -->
+        <div class="texth2holder">
+            <section>
+                <h2>4. Aplicando estilos básicos</h2><br>
+                <p>A continuación, algunos ejemplos básicos de CSS para aplicar estilos:</p>
+                <ul>
+                    <li><strong>color</strong>: Cambia el color del texto.</li>
+                    <li><strong>background-color</strong>: Establece el color de fondo de un elemento.</li>
+                    <li><strong>margin</strong>: Define el espacio fuera de un elemento.</li>
+                    <li><strong>padding</strong>: Define el espacio dentro de un elemento.</li>
+                </ul>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+/* Aplicando estilos básicos */
+
+/* 1. Color: Cambia el color del texto */
+body {
+    color: #333; /* Color gris oscuro para el texto */
+}
+
+/* 2. Background-color: Establece el color de fondo de un elemento */
+h1 {
+    background-color: lightblue; /* Fondo azul claro para los elementos &lt;h1&gt; */
+}
+
+/* 3. Margin: Define el espacio fuera de un elemento */
+p {
+    margin: 20px; /* Márgenes de 20px alrededor de cada elemento &lt;p&gt; */
+}
+
+/* 4. Padding: Define el espacio dentro de un elemento */
+div {
+    padding: 15px; /* Relleno de 15px dentro de cada elemento &lt;div&gt; */
+    border: 1px solid #ccc; /* Añadiendo un borde para visibilidad */
+    background-color: #f4f4f4; /* Fondo gris claro para &lt;div&gt; */
+}
+                </code></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Section 5: Flexbox -->
+        <div class="texth2holder">
+            <section>
+                <h2>5. Flexbox</h2><br>
+                <p>Flexbox es una poderosa técnica de diseño para crear diseños más flexibles y responsivos. Permite
+                    alinear y distribuir los elementos de manera eficiente dentro de un contenedor.</p>
+                <ul>
+                    <li><strong>justify-content</strong>: Alinea los elementos horizontalmente.</li>
+                    <li><strong>align-items</strong>: Alinea los elementos verticalmente.</li>
+                    <li><strong>flex-direction</strong>: Define la dirección en la que se colocan los elementos.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Section 6: CSS Grid -->
+        <div class="texth2holder">
+            <section>
+                <h2>6. CSS Grid</h2><br>
+                <p>CSS Grid Layout es una herramienta avanzada para crear diseños más complejos en la página. Permite
+                    dividir la página en filas y columnas con facilidad.</p>
+                <ul>
+                    <li><strong>grid-template-columns</strong>: Define las columnas en la cuadrícula.</li>
+                    <li><strong>grid-template-rows</strong>: Define las filas en la cuadrícula.</li>
+                    <li><strong>gap</strong>: El espacio entre los elementos en la cuadrícula.</li>
+                </ul>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+/* Ejemplo de Grid Layout */
+
+/* 1. grid-template-columns: Define las columnas en la cuadrícula */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual ancho */
+    gap: 10px; /* Añade un espacio de 10px entre los elementos de la cuadrícula */
+}
+
+/* 2. grid-template-rows: Define las filas en la cuadrícula */
+.item {
+    grid-template-rows: auto; /* Define la altura de las filas */
+    background-color: lightgray; /* Fondo gris claro para los elementos */
+    padding: 20px;
+    text-align: center;
+}
+                </code></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Section 7: Media Queries -->
+        <div class="texth2holder">
+            <section>
+                <h2>7. Media Queries</h2><br>
+                <p>Las consultas de medios te permiten crear diseños responsivos que se adaptan a diferentes tamaños de
+                    pantalla (teléfonos, tabletas, escritorios, etc.).</p>
+                <br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre><code>
+@media screen and (max-width: 768px) {
+/* Cambios de estilo para pantallas más pequeñas */
+body {
+    font-size: 14px;
+}
+}
+                </code></pre>
+                    </div>
+                </div>
+                <br>
+                <ul>
+                    <li><strong>max-width</strong>: Define un estilo que se aplica cuando el ancho de la pantalla es
+                        menor que el valor especificado.</li>
+                    <li><strong>min-width</strong>: Define un estilo que se aplica cuando el ancho de la pantalla es
+                        mayor que el valor especificado.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Section 8: CSS Animations -->
+        <div class="texth2holder">
+            <section>
+                <h2>8. Animaciones CSS</h2><br>
+                <p>Las animaciones permiten que los elementos cambien suavemente con el tiempo. Puedes hacer que los
+                    elementos se muevan, cambien de color y mucho más.</p>
+                <ul>
+                    <li><strong>@keyframes</strong>: Define una animación con un conjunto de pasos (fotogramas).</li>
+                    <li><strong>transition</strong>: Permite que un cambio de estilo ocurra suavemente cuando el usuario
+                        interactúa con un elemento.</li>
+                </ul>
+                <iframe height="509" style="width: 100%;" scrolling="no" title="Bouncy Example Spanish"
+                    src="https://codepen.io/EnriquecidoMG/embed/vEBBLPb?default-tab=html%2Cresult" frameborder="no"
+                    loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href="https://codepen.io/EnriquecidoMG/pen/vEBBLPb">
+                        Bouncy Example Spanish</a> by Enrique (<a
+                        href="https://codepen.io/EnriquecidoMG">@EnriquecidoMG</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
+            </section>
+        </div>
+        <!-- Section: Glosario de CSS -->
+        <div class="texth2holder">
+            <section>
+                <h2>Glosario de CSS (Términos)</h2><br>
+                <p>A continuación, algunos términos comunes utilizados en CSS y sus funciones:</p><br>
+
+                <!-- Tabla del glosario de CSS -->
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th><strong>Término</strong></th>
+                            <th><strong>Definición</strong></th>
+                            <th><strong>Función</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Selector</strong></td>
+                            <td>Un selector de CSS se utiliza para seleccionar un elemento HTML al que se le aplicarán
+                                estilos.</td>
+                            <td>Los selectores se utilizan para definir qué elementos HTML deben ser estilizados.
+                                Ejemplo:
+                                <code>p</code>, <code>#id</code>, <code>.clase</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Propiedad</strong></td>
+                            <td>Una propiedad de CSS define el aspecto de un elemento que deseas estilizar.</td>
+                            <td>Las propiedades definen las características que deseas modificar. Ejemplo:
+                                <code>color</code>,
+                                <code>font-size</code>, <code>margin</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Valor</strong></td>
+                            <td>Un valor de CSS es la configuración que asignas a una propiedad para definir cómo debe
+                                comportarse la propiedad.</td>
+                            <td>Los valores especifican cómo se aplican las propiedades. Ejemplo: <code>rojo</code>,
+                                <code>16px</code>,
+                                <code>auto</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Clase</strong></td>
+                            <td>Una clase es un atributo que puede ser asignado a uno o más elementos HTML para aplicar
+                                estilos compartidos.</td>
+                            <td>Las clases se utilizan a menudo para aplicar los mismos estilos a varios elementos.
+                                Ejemplo:
+                                <code>.botón</code> para todos los elementos de botón.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>ID</strong></td>
+                            <td>Un ID es un identificador único para un elemento HTML, utilizado para estilizarlo
+                                específicamente o seleccionarlo con JavaScript.</td>
+                            <td>Los IDs se utilizan para seleccionar un único elemento. Ejemplo:
+                                <code>#encabezado</code> para un
+                                elemento con el ID "encabezado".
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Margen</strong></td>
+                            <td>Define el espacio fuera del borde de un elemento.</td>
+                            <td>Los márgenes controlan el espacio alrededor de los elementos. Ejemplo:
+                                <code>margin: 20px;</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Relleno</strong></td>
+                            <td>Define el espacio entre el contenido de un elemento y su borde.</td>
+                            <td>El relleno controla el espacio interno dentro de los elementos. Ejemplo:
+                                <code>padding: 10px;</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Color de fondo</strong></td>
+                            <td>Establece el color de fondo de un elemento.</td>
+                            <td>Se utiliza para cambiar el fondo de elementos como <code>div</code> o <code>body</code>.
+                                Ejemplo: <code>background-color: lightblue;</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Display</strong></td>
+                            <td>Define cómo se muestra un elemento en la página.</td>
+                            <td>La propiedad <code>display</code> controla si los elementos se muestran como bloque,
+                                en línea o como un contenedor flex. Ejemplo: <code>display: flex;</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Flexbox</strong></td>
+                            <td>Flexbox es un modelo de diseño que te permite crear diseños complejos de manera
+                                sencilla.</td>
+                            <td>Flexbox permite que los elementos se ajusten y alineen dinámicamente dentro de un
+                                contenedor. Ejemplo:
+                                <code>display: flex;</code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Grid</strong></td>
+                            <td>CSS Grid Layout es un sistema de diseño bidimensional para diseño web.</td>
+                            <td>CSS Grid permite crear diseños con filas y columnas. Ejemplo:
+                                <code>display: grid;</code>.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </div>
+
+        <!-- Section: Consejos para HTML y CSS Avanzados -->
+        <div class="texth2holder">
+            <section>
+                <h2>Consejos para Escribir Código Avanzado de HTML y CSS</h2><br>
+
+                <p>A continuación, algunos consejos útiles para escribir HTML y CSS más avanzados, mantenibles y
+                    eficientes:</p>
+                <br>
+
+                <!-- Lista de Consejos -->
+                <ul>
+                    <li><strong>1. Usa HTML Semántico:</strong> Siempre usa elementos HTML semánticos como
+                        <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>,
+                        <code>&lt;section&gt;</code> y <code>&lt;nav&gt;</code> para proporcionar mejor estructura y
+                        significado a tu contenido. Esto mejora la accesibilidad, SEO y la legibilidad de tu código.
+                    </li>
+
+                    <li><strong>2. Usa Variables en CSS:</strong> Las Variables en CSS te permiten almacenar valores
+                        (como colores,
+                        fuentes, espaciado) en un solo lugar y reutilizarlos en todo tu archivo de estilos. Esto hace
+                        que tu código
+                        sea más mantenible y fácil de modificar.</li>
+
+                    <li><strong>3. Evita los Estilos en Línea:</strong> Aunque los estilos en línea (<code>style</code>)
+                        pueden
+                        ser rápidos de usar, son difíciles de mantener. Es mejor separar tu CSS en un archivo externo
+                        para mejor
+                        reutilización y legibilidad.</li>
+
+                    <li><strong>4. Usa Flexbox y Grid para los Diseños:</strong> Al crear diseños, considera usar
+                        <code>flexbox</code> y <code>grid</code>. Estos sistemas modernos de diseño en CSS ofrecen
+                        herramientas
+                        poderosas para crear diseños flexibles y responsivos sin necesidad de flotadores o
+                        posicionamiento complejo.
+                    </li>
+
+                    <li><strong>5. Minimiza los Conflictos de Especificidad:</strong> Evita usar selectores demasiado
+                        específicos (por ejemplo,
+                        <code>div#contenedor ul li a</code>) que podrían causar problemas más adelante. En su lugar,
+                        trata de mantener
+                        los selectores simples y usa clases para estilizar. Esto mejora la mantenibilidad y reduce el
+                        riesgo
+                        de que los estilos se sobrescriban inesperadamente.
+                    </li>
+
+                    <li><strong>6. Usa la Metodología BEM (Bloque, Elemento, Modificador):</strong> La convención de
+                        nombres BEM
+                        ayuda a crear nombres de clases consistentes y escalables. Por ejemplo,
+                        <code>.botón--grande</code> podría
+                        ser un botón con un modificador para el tamaño grande. Esto mejora la legibilidad y evita
+                        conflictos
+                        en los nombres de clases.
+                    </li>
+
+                    <li><strong>7. Optimiza para Móviles (Diseño Responsivo):</strong> Usa consultas de medios para
+                        ajustar tu
+                        diseño a diferentes tamaños de pantalla. Se recomienda un enfoque móvil primero, donde creas el
+                        diseño básico
+                        para pantallas pequeñas y luego añades estilos específicos para dispositivos más grandes.</li>
+
+                    <li><strong>8. Usa Preprocesadores CSS (Sass o Less):</strong> Los preprocesadores CSS como
+                        <code>Sass</code> o <code>Less</code> ofrecen características avanzadas como variables,
+                        anidamiento y
+                        mixins, lo que hace tu CSS más potente y organizado. Los preprocesadores ayudan a reducir el
+                        código repetitivo
+                        y mejoran la escalabilidad.
+                    </li>
+
+                    <li><strong>9. Evita Usar !important:</strong> La regla <code>!important</code> puede sobrescribir
+                        otros
+                        estilos, pero debe usarse con moderación. Abusar de <code>!important</code> puede dificultar la
+                        depuración
+                        de tu código y crear confusión sobre qué estilos se están aplicando.</li>
+
+                    <li><strong>10. Comenta tu Código:</strong> Siempre comenta tu código HTML y CSS, especialmente en
+                        proyectos
+                        más grandes. Esto ayuda a otros (y a ti mismo en el futuro) a entender tu lógica y las
+                        intenciones
+                        detrás de ciertas secciones o estilos.</li>
+
+                    <li><strong>11. Mantén tu CSS DRY (Don’t Repeat Yourself):</strong> Trata de evitar repetir estilos
+                        en múltiples selectores. Si te encuentras repitiendo un conjunto de propiedades, considera crear
+                        una clase reutilizable o usar variables CSS.</li>
+
+                    <li><strong>12. Optimiza el Rendimiento:</strong> Ten en cuenta el rendimiento al escribir CSS. Usa
+                        selectores eficientes, minimiza el uso de propiedades costosas como <code>box-shadow</code>, y
+                        reduce el número de solicitudes HTTP combinando archivos CSS y optimizando imágenes.</li>
+                </ul>
+
+            </section>
+        </div>
+        <div class="texth2holder" style="width: 60%; margin-left: auto; margin-right: auto; background-color:honeydew;">
+            <section style="background-color:honeydew; border-color: honeydew; color: black;">
+                <h3 style="margin: auto; text-align: center; ">¡Felicidades por completar la<b> Guía de HTML!</b></h2>
+                    <br>
+                    <p style="text-align: center;"><b>Ahora estás listo para pasar a la acción</b></p>
+                    <p style="text-align: center;"><i>CSS PRO y JavaScript (próximamente)</i></p><br>
+                    <p style="text-align: center;">Es de vital <b>importancia</b> que hayas asimilados todos los
+                        conceptos anteriores y que entiendas que esta es una guía muy básica que empaqueta todos los
+                        recursos esenciales para empezar a experimentar y hacer cosas interesantes; conforme pase el
+                        tiempo iré añadiendo nuevos contenido con los que se podrán ver conceptos de manera más profunda
+                    </p><br>
+                    <p style="text-align: center;"><img src="resources/Images/tux-linux-penguin.gif" alt="tux_typing"
+                            width="20%"></p><br>
+                    <p style="text-align: center;"><a class="btn"
+                            style="background-color: rgb(69, 52, 49); margin-right: 20%; color: honeydew; width: 20%; vertical-align: middle;"
+                            href="https://github.com/EnriquecidoMG" target="_blank">Mi GitHub</a><a class="btn"
+                            style="background-color: rgb(69, 52, 49);  color: honeydew;"
+                            href="https://enriquecidomg.github.io/Johnny-Cash-Fan-Page/" target="_blank">Ejemplo</a>
+                    </p><br>
+            </section>
+        </div>
+
+        <a class="btn" style="position: absolute; top: 30%; left: 68%;" href="#CSSsection">Ir a CSS</a>
+
+        <footer>
+            <div class="texth2holder"
+                style="width: 60%; margin-left: auto; margin-right: auto; background-color:rgba(240, 255, 240, 0); margin-bottom: 3px;">
+                <section
+                    style="background-color:rgba(240, 255, 240, 0); border-color: rgba(240, 255, 240, 0); color: black;">
+                    <h2 style="margin: auto;"><br></h2><br>
+                    <p style="text-align: center;"><b>Página creada por M. Enrique Medina Gomariz.</b></p><br>
+                    </p><br>
+                </section>
+            </div>
+        </footer>
+    </main>
+    <div class="background">
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+    </div>
+</body>
+
+</html>
