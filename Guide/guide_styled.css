@@ -393,6 +393,11 @@ nav{
   border-width: 10px;
   border-style: solid;
   border-color: rgb(88, 66, 62);
+  transition: 0.5s;
+}
+
+.nav-container:hover{
+  transform: scale(1.03);
 }
 
 .navbutton{
