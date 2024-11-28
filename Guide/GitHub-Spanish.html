@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="GitHub_styled.css">
     <link rel="shortcut icon" href="resources/Favicon/Coffe_Bean.ico" type="image/x-icon">
-    <title>Aprender HTML</title>
+    <title>Aprender GitHub</title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
     <nav>
         <div class="nav-container">
             <div class="navbutton"><a href="spanish.html">Inicio</a></div>
-            <div class="navbutton"><a href="#CSSsection">CSS</a></div>
+            <div class="navbutton"><a href="spanish.html#CSSsection">CSS</a></div>
             <div class="navbutton"><a href="#JavaScript">JavaScript</a></div>
             <div class="navbutton"><a href="">GitHub Pages</a></div>
         </div>
@@ -48,22 +48,218 @@
     <br><br>
 
     <main>
-        <!-- Sección 1: Introducción a HTML -->
+        <!-- Sección 1: Requisitos -->
         <p style="text-align: center;">Bienvenido al tutorial COFFEE-HTML. Aquí aprenderás los conceptos básicos de
             HTML y cómo crear páginas web sencillas.</p>
         <div class="texth2holder">
             <section>
 
-                <h2>X. Próximamente</h2>
+                <h2>1. Requisitos</h2>
                 <br>
-                <p><strong>¿xxxxxxxx?</strong><br>
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    xxxxxxxxxxxxxxxxxxxxx.
-                </p><br>
+                <p><strong>Creación de cuenta en <b>GitHub:</b></strong><br><br>
+                <ol style="margin-left: 30px;">
+                    <li>Visita el sitio web github.com.</li>
+                    <li>Haz clic en "Sign up": En la página principal, verás el botón para registrarte. Haz clic en él.
+                    </li>
+                    <li>Rellena tu información:</li>
+                    <li>Nombre de usuario: Elige un nombre único.</li>
+                    <li>Correo electrónico: Ingresa un correo válido.</li>
+                    <li>Contraseña: Crea una contraseña segura.</li>
+                    <li>Verifica tu cuenta: GitHub te pedirá verificar que no eres un robot (captcha).</li>
+                    <li>Elige un plan: Selecciona el plan que prefieras. Hay una opción gratuita.</li>
+                    <li>Configura tu perfil (opcional): Puedes agregar una foto y detalles sobre ti.</li>
+                    <li>Finaliza el registro: Haz clic en el botón de "Create account" para completar el proceso.</li>
+                </ol>
+                <br>
+                </p>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img src="resources/Screenshots/GitPages/GitHub_SingUp.png" alt="">
+                    </div>
+                </div>
+                <br>
 
-                <p><strong>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</strong><br>
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:</p>
+                <p><strong>Descargar Git</strong><br><br>
+
+                <ol style="margin-left: 30px;">
+                    <li>Ve a <a href="https://git-scm.com" target="_blank">git-scm.com</a>.</li>
+                    <li>Haz clic en el botón "Download" para Windows.</li>
+                    <li>Ejecutar el instalador:
+                        <ul style="font-style: italic;">
+                            <li>Abre el archivo descargado (.exe).</li>
+                            <li>Haz clic en "Next" en las opciones predeterminadas.</li>
+                            <li>Deja las opciones predeterminadas, solo haz clic en "Next" hasta llegar al final.</li>
+                            <li>Haz clic en "Install".</li>
+                        </ul>
+                    </li>
+                    <li>Verificar instalación:
+                        <ul style="font-style: italic;">
+                            <li>Abre Git Bash (se instala automáticamente).</li>
+                            <li>Escribe el siguiente comando para verificar la instalación:
+                                <pre>git --version</pre>
+                            </li>
+                            <li>Si todo está bien, verás la versión de Git instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+                </p>
+                <br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img src="resources/Screenshots/GitPages/Git_Download.png" alt="">
+                    </div>
+                </div>
+                <br><br>
+
+            </section>
+        </div>
+
+        <!-- Sección 2: Introducción a Git -->
+
+        <div class="texth2holder">
+            <section>
+
+                <h2>2. Creando el repositorio</h2>
+                <br>
+                <p><strong>Creación de cuenta en <b>GitHub</b></strong><br>
+                <ol style="margin-left: 30px;">
+                    <li>En la página principal, haz clic en el botón verde que dice "New" o "Nuevo" (ubicado en la parte
+                        superior derecha, cerca de tu avatar).</li>
+                    <li>Asigna un nombre al repositorio y opcionalmente una descripción.</li>
+                    <li>Elige si el repositorio será público o privado.</li>
+                    <li>Puedes inicializar el repositorio con un README si lo deseas.</li>
+                </ol>
+                <br>
+                </p>
+                <div style="display: flex;">
+                    <div class="card">
+                        <div class="tools">
+                            <div class="circle">
+                                <span class="red box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="yellow box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="green box"></span>
+                            </div>
+                        </div>
+                        <div class="card__content">
+                            <img src="resources/Screenshots/GitPages/GitHub_Repo-Creation.png" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="card">
+                        <div class="tools">
+                            <div class="circle">
+                                <span class="red box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="yellow box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="green box"></span>
+                            </div>
+                        </div>
+                        <div class="card__content">
+                            <img src="resources/Screenshots/GitPages/GitHub_Repo-Adding-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </section>
+        </div>
+
+        <!-- Sección 3: Conectar el repositorio -->
+
+        <div class="texth2holder">
+            <section>
+
+                <h2>3. Conectar el repositorio</h2>
+                <br>
+                <div class="container">
+                    <div class="left">
+                        <p><strong>Creación de <b>repositorio</b></strong><br>
+                        <ol style="margin-left: 30px;">
+                            <br>
+                            <li>Abre el explorador de archivos del sistema.</li>
+                            <br>
+                            <li>Navega hasta la carpeta en la que quieres crear el repositorio o crea una nueva carpeta
+                            </li>
+                            <br>
+                            <li>Haz click derecho y selecciona la opción <b>"Open Git Bash here"</b></li>
+                            <br>
+                            <li>Esto abrirá la terminal de Git en el directorio que estamos ahora</li>
+                            <br>
+                            <li>Ejecutaremos los siguientes comandos que vienen explicados</li>
+                        </ol>
+                        </p>
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/GitHub_Repo-Adding-2.png" alt=""
+                                    style="width: 250px;">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/Git_Console-Bash.png" alt=""
+                                    style="width: 250px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p><strong>Introduce estos comandos (marcados en negro)</strong></p>
                 <br>
                 <div class="card">
                     <div class="tools">
@@ -79,16 +275,190 @@
                     </div>
                     <div class="card__content">
                         <pre><code>
-
-                    </code></pre>
+    <p><b>git init</b> | Hace que git lo vea como repositorio</p>
+    <p><b>git add .</b> | Añade todos los archivos para actualizar</p>
+    <p><b>git status</b> | Te dice que se ha modificado y errores que surgen</p>
+    <p><b>git commit -m "comentario" </b>| Añade un comentario a tu acutalización</p>
+    <p><b>git branch -M main</b> | Asigna esta ubicación como la raiz principal</p>
+    <p><b>git remote add origin https://github.com/"usuario"/"repositorio".git</b> | añade el repositorio en la nube</p>
+    <p><b>git push -u origin main</b> | Manda la acutalización de la raiz principal</p>
+                                </code></pre>
                     </div>
                 </div>
                 <br>
-                <p><strong>XXXXXXXXXXXXXXXXXXXXXXXX</strong><br>
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                <br>
+                <p><strong>El resultado final debería verse como algo así:</strong></p>
+                <br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img src="resources/Screenshots/GitPages/Git_Console-Bash-finish.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <br>
+        </div>
+        </section>
 
+
+        <!-- Sección 4: Configurar "GitHub Pages" -->
+
+        <div class="texth2holder">
+            <section>
+
+                <h2>4. Configurar "GitHub Pages"</h2>
+                <br>
+                <p><strong>Pasos a seguir</strong><br></p>
+                <ol style="margin-left: 30px;">
+                    <li>Accede a tu repositorio en GitHub.</li>
+                    <li>Haz clic en la pestaña Settings (Configuración) del repositorio.</li>
+                    <li>En el menú lateral izquierdo, desplázate hacia abajo hasta la sección de Pages (GitHub Pages).
+                    </li>
+                    <li>En el campo Source, selecciona la rama de la cual se generará el sitio web:</li>
+                    <br>
+                    <div style="display: flex;">
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/GitHub_Repo-Pages-1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/GitHub_Repo-Pages-Conf.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <p>Una vez que GitHub haya procesado tu repositorio (puede tomar unos minutos), verás un enlace bajo
+                        la
+                        sección GitHub Pages que te llevará a la URL pública de tu sitio web. La URL será algo como
+                        esto:
+                    </p>
+                    <p>
+                    <pre><code>https://tu-usuario.github.io/mi-repositorio/</code></pre>
+                    </p>
+                    <li>Haz clic en el enlace para ver tu sitio web.</li>
+                    <li>Si deseas hacer cambios en tu sitio web, simplemente realiza los cambios en tu repositorio
+                        local.
+                    </li>
+
+
+                    <br>
+                    <div style="display: flex;">
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/GitHub_Repo-Pages-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tools">
+                                <div class="circle">
+                                    <span class="red box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="yellow box"></span>
+                                </div>
+                                <div class="circle">
+                                    <span class="green box"></span>
+                                </div>
+                            </div>
+                            <div class="card__content">
+                                <img src="resources/Screenshots/GitPages/GitHub_Repo-Pages-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </ol>
+                <br><br>
             </section>
+        </div>
+
+        <!-- Sección 5: Despedida -->
+
+        <div class="texth2holder">
+            <section>
+
+                <h2>5. Terminaste</h2>
+                <br>
+                <p><strong>Ya estás listo para usar <b>GitHub Pages</b></strong><br><br>
+                    ¡Y eso es todo! Hemos recorrido todo el proceso para crear y desplegar tu sitio web usando GitHub
+                    Pages. Ahora, con tu proyecto en línea, tienes una plataforma gratuita, confiable y fácil de usar
+                    para compartir tus ideas con el mundo.</p><br>
+
+                <p> Recuerda que GitHub Pages es solo el principio: puedes seguir aprendiendo más sobre cómo
+                    personalizar y mejorar tu sitio, integrar herramientas adicionales o incluso convertirlo en una
+                    cartera profesional o un blog personal.</p><br>
+
+                <p>Si tienes alguna pregunta o te encuentras con algún problema, no dudes en revisar la documentación
+                    oficial de GitHub o buscar ayuda en la comunidad. ¡Estamos seguros de que lo lograrás!</p><br>
+
+                <p>Gracias por seguir este tutorial. ¡Buena suerte con tus proyectos y hasta la próxima!</p>
+
+
+                </p><br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img src="resources/Images/OctoCatArt.gif" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+
     </main>
     <div class="background">
         <div class='air air1'></div>
