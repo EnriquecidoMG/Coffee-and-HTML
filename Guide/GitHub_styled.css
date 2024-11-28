@@ -32,6 +32,7 @@ main {
 
 body{
   background-image: url(resources/Background/space.png);
+  background-color: black;
 }
 
 header h1 {
@@ -171,9 +172,16 @@ iframe{
 
    }
 
+   .card__content img{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+   }
+
+
 code{
     font-family: LibMono;
-    font-size: 12px;
+    font-size: 70%;
 }
 
 .text-container {
@@ -392,6 +400,11 @@ nav{
   border-width: 10px;
   border-style: solid;
   border-color: rgb(52, 30, 89);
+  transition: 0.5s;
+}
+
+.nav-container:hover{
+  transform: scale(1.03);
 }
 
 .navbutton{
@@ -414,3 +427,18 @@ nav{
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgba(198, 198, 198, 0.7);
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+  padding-right: 60px;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
