@@ -54,12 +54,11 @@ What are you waiting for to start creating your own websites? Let’s learn toge
 🚧 **Project under construction** 🔨
 
 ### [--> go to the WEB](https://enriquecidomg.github.io/Coffee-and-HTML/)
-**Content Checklist**
-- [x] HTML
-- [x] CSS
-- [ ] JavaScript
-- [ ] PHP
-- [ ] CSS <sup>Pro</sup>
-- [ ] HTML <sup>Pro</sup>
-- [x] GitHub Pages
-
+**Content of the page:**
++ ☑️ HTML
+- ☑️ CSS
++ ⬜ JavaScript
+- ⬜ PHP
++ ⬜ CSS <sup>Pro</sup>
+- ⬜ HTML <sup>Pro</sup>
++ ☑️ GitHub Pages
