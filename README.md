@@ -53,7 +53,7 @@ What are you waiting for to start creating your own websites? Let’s learn toge
 
 🚧 **Project under construction** 🔨
 
-### [--> go to the WEB](https://enriquecidomg.github.io/Coffee-and-HTML/)
+### [➯ Go to the WEB](https://enriquecidomg.github.io/Coffee-and-HTML/)
 **Content of the page:**
 + ☑️ HTML
 - ☑️ CSS
