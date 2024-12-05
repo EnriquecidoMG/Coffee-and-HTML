@@ -180,7 +180,7 @@ code{
 .text-container {
     margin-top: 70px;
     display: flex;
-    justify-content: center;  /* Asegura que las letras estén centradas horizontalmente */
+    justify-content: center;
   }
   
   .letter {
@@ -207,16 +207,16 @@ code{
       transform: translateY(0);
     }
     25% {
-      transform: translateY(-5px);  /* Mueve la letra hacia arriba */
+      transform: translateY(-5px);
     }
     50% {
-      transform: translateY(0);      /* Vuelve a la posición original */
+      transform: translateY(0);
     }
     75% {
-      transform: translateY(5px);   /* Mueve la letra hacia abajo */
+      transform: translateY(5px);
     }
     100% {
-      transform: translateY(0);      /* Vuelve a la posición original */
+      transform: translateY(0);
     }
   }
   
