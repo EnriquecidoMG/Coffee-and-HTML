@@ -110,12 +110,6 @@ section a:hover::before{
   border-width: 3px;
 }
 
-iframe{
-  border-radius: 15px;
-  border-style: solid;
-  border-color:rgb(39, 22, 66);
-  border-width: 3px;
-}
 
 .card {
 
@@ -167,7 +161,7 @@ iframe{
     font-family: dogica;
     margin-left: 10px;
     margin-right: 10px;
-    width: fit-content;
+    width: auto;
     color: rgb(30, 30, 30);
 
    }
