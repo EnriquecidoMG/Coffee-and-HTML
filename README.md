@@ -59,6 +59,6 @@ What are you waiting for to start creating your own websites? Let’s learn toge
 - ☑️ CSS
 + ⬜ JavaScript
 - ⬜ PHP
-+ ☑️ CSS <sup>Pro</sup>
++ ☑️ CSS <sup>Pro</sup> <sub>(Comming soon in English)</sub>
 - ⬜ HTML <sup>Pro</sup>
-+ ☑️ GitHub Pages
++ ☑️ GitHub Pages <sub>(Comming soon in English)</sub>
