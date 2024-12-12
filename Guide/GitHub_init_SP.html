@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GitHub_styled.css">
+    <link rel="shortcut icon" href="resources/Favicon/Coffe_Bean.ico" type="image/x-icon">
+    <title>Aprender GitHub</title>
+</head>
+
+<body>
+
+
+    <header>
+        <br>
+        <div class="text-container">
+
+            <span class="letter">C</span>
+            <span class="letter">O</span>
+            <span class="letter">F</span>
+            <span class="letter">F</span>
+            <span class="letter">E</span>
+            <span class="letter">E</span>
+            <span class="letter"> </span>
+            <span class="letter">&</span>
+            <span class="letter"> </span>
+            <span class="letter">G</span>
+            <span class="letter">I</span>
+            <span class="letter">t</span>
+            <span class="letter">H</span>
+            <span class="letter">u</span>
+            <span class="letter">b</span>
+
+        </div>
+        <br>
+
+
+    </header>
+    <br>
+
+    <nav>
+        <div class="nav-container">
+            <div class="navbutton"><a href="spanish.html">Inicio</a></div>
+            <div class="navbutton"><a href="spanish.html#CSSsection">CSS</a></div>
+            <div class="navbutton"><a href="#JavaScript">JavaScript</a></div>
+            <div class="navbutton"><a href="GitHub_Select_Spanish.html">GitHub Pages</a></div>
+        </div>
+    </nav>
+    <br><br>
+
+    <main>
+
+        <div class="texth2holder">
+            <section>
+                <h2>1. ¿Qué es Git y GitHub?</h2>
+                <br>
+                <p><strong>Git</strong>: Es un sistema de control de versiones distribuido que te permite gestionar el
+                    historial de cambios en tu código de manera eficiente. Permite a varios desarrolladores trabajar en
+                    el mismo proyecto sin interferir entre sí. Git mantiene un registro detallado de cada cambio
+                    realizado, y puedes deshacer o reverter cualquier cambio con facilidad.<br><br>
+                    <strong>GitHub</strong>: Es una plataforma de alojamiento de código basada en Git. Permite colaborar
+                    en proyectos, gestionar repositorios y facilitar la colaboración entre desarrolladores. GitHub
+                    incluye características como Issues, Pull Requests y herramientas de integración continua para
+                    facilitar la colaboración y el desarrollo de software.<br><br>
+                    En resumen, Git es una herramienta que gestiona tu código, y GitHub es una plataforma que facilita
+                    la colaboración y gestión del código con Git.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 1: ¿Qué es Git y GitHub? -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>2. Creando una cuenta en GitHub</h2>
+                <br>
+                <p><strong>Regístrate en GitHub</strong><br><br>
+                    1. Dirígete a <a href="https://github.com" target="_blank">https://github.com</a> y haz clic en el
+                    botón <strong>"Sign up"</strong> (registrarse).<br><br>
+                    2. Ingresa tu dirección de correo, elige un nombre de usuario único y establece una
+                    contraseña.<br><br>
+                    3. GitHub te enviará un correo de confirmación. Haz clic en el enlace para verificar tu
+                    cuenta.<br><br>
+                    4. Después de confirmar tu cuenta, podrás acceder a tu perfil y empezar a explorar repositorios o
+                    crear los tuyos propios.<br><br>
+                    5. Al registrarte, podrás optar por una cuenta gratuita o elegir una opción paga, dependiendo de tus
+                    necesidades.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 2: Creando una cuenta en GitHub -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>3. Instalación de Git en tu computadora</h2>
+                <br>
+                <p><strong>Instalar Git</strong><br><br>
+                    1. <b>Windows</b>: Ve a <a href="https://git-scm.com/downloads"
+                        target="_blank">https://git-scm.com/downloads</a> y descarga el instalador para Windows. Ejecuta
+                    el archivo descargado y sigue las instrucciones predeterminadas.<br><br>
+                    2. <b>macOS</b>: En la mayoría de las Macs, Git está preinstalado. Si no es así, puedes usar
+                    Homebrew para instalarlo. Si no tienes Homebrew, instálalo con este comando en la terminal:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</pre>
+                        <br>
+                    </div>
+                </div><br>
+                Luego, instala Git con el siguiente comando:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>brew install git</pre><br>
+                    </div>
+                </div><br><br>
+                3. <b>Linux</b>: En distribuciones basadas en Debian, como Ubuntu, puedes instalar Git con el siguiente
+                comando:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>sudo apt-get install git</pre><br>
+                    </div>
+                </div><br><br>
+                <strong>Verificación de instalación</strong><br><br>
+                Para verificar que Git se ha instalado correctamente, ejecuta el siguiente comando en la terminal:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git --version</pre><br>
+                    </div>
+                </div><br>
+                Si Git está correctamente instalado, deberías ver un mensaje similar a <code>git version 2.x.x</code>.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 3: Instalación de Git en tu computadora -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>4. Creando tu primer repositorio en GitHub</h2>
+                <br>
+                <p><strong>Crea un repositorio en GitHub</strong><br><br>
+                    1. Entra en tu cuenta de GitHub y haz clic en el botón <strong>"New"</strong> para crear un nuevo
+                    repositorio.<br><br>
+                    2. Escribe un nombre para tu repositorio, por ejemplo <b>mi-primer-repo</b>.<br><br>
+                    3. Puedes elegir hacerlo público o privado. Si es público, todos podrán ver el código, si es
+                    privado, solo tú y los colaboradores podrán acceder.<br><br>
+                    4. Finalmente, haz clic en <strong>"Create repository"</strong> para finalizar.<br><br>
+                    <strong>Inicializa un repositorio local</strong><br><br>
+                    1. En tu computadora, abre la terminal y navega a la carpeta donde deseas almacenar el proyecto.<br>
+                    2. Ejecuta el siguiente comando para inicializar el repositorio:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git init</pre><br>
+                    </div>
+                </div><br>
+                Esto creará un repositorio vacío en tu máquina local.<br><br>
+                <strong>Conectar el repositorio local a GitHub</strong><br><br>
+                1. Copia la URL de tu repositorio en GitHub, que se verá algo así como
+                <code>https://github.com/usuario/mi-primer-repo.git</code>.<br><br>
+                2. En tu terminal local, ejecuta este comando para enlazar tu repositorio local con el de GitHub:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git remote add origin https://github.com/usuario/mi-primer-repo.git</pre><br>
+                    </div>
+                </div><br>
+                3. Sube tu repositorio local a GitHub con el siguiente comando:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git push -u origin master</pre><br>
+                    </div>
+                </div><br>
+                Ahora tu repositorio está en GitHub.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 4: Creando tu primer repositorio en GitHub -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>5. Haciendo tu primer commit</h2>
+                <br>
+                <p><strong>Realizando un commit</strong><br><br>
+                    1. Crea un archivo dentro de tu repositorio local, por ejemplo un archivo
+                    <code>index.html</code>.<br><br>
+                    2. Agrega este archivo al área de preparación (staging area) ejecutando:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git add index.html</pre><br>
+                    </div>
+                </div><br>
+                3. Realiza un commit con el siguiente mensaje para describir los cambios realizados:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git commit -m "Primer archivo HTML"</pre><br>
+                    </div>
+                </div><br>
+                Este comando crea un "snapshot" de tu archivo y lo guarda en el historial de tu repositorio.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 5: Haciendo tu primer commit -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>6. Trabajando con ramas</h2>
+                <br>
+                <p><strong>Creando y gestionando ramas</strong><br><br>
+                    Las ramas te permiten trabajar en funcionalidades o arreglos sin afectar el código principal
+                    (master). Para crear una nueva rama y cambiarte a ella, ejecuta:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git checkout -b nueva-rama</pre><br>
+                    </div>
+                </div><br>
+                Esto creará una nueva rama llamada "nueva-rama" y te cambiará automáticamente a ella.<br><br>
+                Una vez que hayas hecho tus cambios y quieras regresar a la rama principal (master), ejecuta:<br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git checkout master</pre><br>
+                    </div>
+                </div><br>
+                Si deseas fusionar la rama de nuevo con la principal, usa el comando merge:
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git merge nueva-rama</pre><br>
+                    </div>
+                </div>
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 6: Trabajando con ramas -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>7. Colaborando en proyectos de GitHub</h2>
+                <br>
+                <p><strong>Haciendo un Pull Request</strong><br><br>
+                    Si trabajas en un fork de un repositorio y deseas contribuir con cambios, puedes hacerlo a través de
+                    un Pull Request. Primero, realiza un "fork" del repositorio original, haz tus cambios y luego envía
+                    un Pull Request para que los mantenedores del repositorio original revisen tus cambios.<br><br>
+                    <strong>Actualizar tu fork o repositorio local</strong>:<br><br>
+                    Si trabajas en un fork de un repositorio y el repositorio original ha tenido actualizaciones, puedes
+                    sincronizar tu fork con los cambios más recientes ejecutando estos comandos:<br><br>
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <pre>git remote add upstream https://github.com/usuario/repositorio-original.git</pre><br>
+                        <pre>git fetch upstream</pre><br>
+                        <pre>git merge upstream/master</pre><br>
+                    </div>
+                </div><br>
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 7: Colaborando en proyectos de GitHub -->
+
+        <div class="texth2holder">
+            <section>
+                <h2>8. Buenas prácticas y recomendaciones</h2>
+                <br>
+                <p><strong>Buenas prácticas con Git:</strong><br><br>
+                    1. Haz commits frecuentes con mensajes claros y concisos.<br>
+                    2. Usa ramas para trabajar en nuevas funcionalidades o correcciones sin afectar la rama
+                    principal.<br>
+                    3. No dejes cambios sin subir al repositorio remoto.<br>
+                    4. Realiza pull requests para colaborar y revisar cambios con otros miembros del equipo.<br><br>
+                    <strong>Recomendaciones:</strong><br><br>
+                    1. Mantén tu repositorio limpio y bien organizado.<br>
+                    2. Evita almacenar información sensible (como contraseñas) en los repositorios.<br>
+                    3. Usa etiquetas (tags) para marcar versiones importantes del proyecto.<br>
+                    4. Documenta bien tu código para que otros desarrolladores puedan entenderlo fácilmente.
+                </p>
+            </section>
+        </div>
+        <!-- Fin de la sección 8: Buenas prácticas y recomendaciones -->
+
+
+        <footer>
+            <div class="texth2holder"
+                style="width: 60%; margin-left: auto; margin-right: auto; background-color:rgba(240, 255, 240, 0); margin-bottom: 3px;">
+                <section
+                    style="background-color:rgba(240, 255, 240, 0); border-color: rgba(240, 255, 240, 0); color: black;">
+                    <h2 style="margin: auto;"><br></h2><br>
+                    <p style="text-align: center; color: #ffffff;"><b>Página creada por M. Enrique Medina Gomariz.</b>
+                    </p><br>
+                    </p><br>
+                </section>
+            </div>
+        </footer>
+    </main>
+    <div class="background">
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
+    </div>
+
+
+</body>
