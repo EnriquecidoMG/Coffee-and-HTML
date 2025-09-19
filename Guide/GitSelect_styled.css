@@ -466,7 +466,7 @@ nav{
   padding: 0.8em 2em;
   background: var(--bg);
   transition: 0.2s;
-  width: 50%;
+  
   font-size: large;
 }
 
@@ -480,4 +480,24 @@ nav{
 .contenedor button:active {
   transform: translate(0);
   box-shadow: none;
+}
+
+@media (max-width: 1250px) {
+  .card{
+    scale: 0.8;
+  }
+}
+
+@media (max-width: 1100px) {
+  .card{
+    scale: 0.8;
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card{
+    scale: 0.6;
+    margin-left: -80px;
+  }
 }
